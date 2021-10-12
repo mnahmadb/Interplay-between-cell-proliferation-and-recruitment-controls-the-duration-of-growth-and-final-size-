@@ -32,19 +32,19 @@ ri=Z(1,2);
 %of line 24 in a time between 24 and 36 hours.
    if mr == rf;
        s = s+1;
-       %plot(p/0.0014,k,'m*')%To graph the supplementary figure
+       %plot(p/0.0014,k,'m*')%To graph the supplementary figure 1
        plot(T,Z(:,2),'m','LineWidth',0.7) %To graph the figure 2 panel E.
        rhom(s,1:4) = [k,q,p,tm];
    elseif ri == mr;
        x=x+1;
-       %plot(p/0.0014,k,'g*')%To graph the supplementary figure
+       %plot(p/0.0014,k,'g*')%To graph the supplementary figure 1
            if tf >= 24 & tf <= 36;
                rhog(x,1:4) = [k,q,p,tf];
            end
        plot(T,Z(:,2),'g','LineWidth',0.7)%To graph the figure 2 panel E.
    else 
        y=y+1;
-       %plot(p/0.0014,k,'b*')%To graph the supplementary figure
+       %plot(p/0.0014,k,'b*')%To graph the supplementary figure 1
           if tf >= 24 & tf <= 36;
               rhob(y,1:4) = [k,q,p,tf];
           end
