@@ -3,7 +3,7 @@
 In the article “Interplay between cell proliferation and recruitment controls the duration of growth and the final size of the Drosophila wing”, 
 we model two cellular processes that are active during the morphogenesis of the wings of the fly drosophila melanogaster, 
 proliferation and recruitment, using a system in differential equations (ODE) in order to optimize the system and find the parameters 
-for which there is control of the size of the wings. For more details see original article. The .m files must follow the following order 
+for which there is control of the size of the wings. For more details see original article. The simulations were carried out in MATLAB R2016a. The .m files must follow the following order 
 to can be run without problems.
 
 1. ODE_system.m
